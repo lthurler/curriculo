@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="460px, initial-scale=1.0">
         <!-- 340 ~ 460px -->
 <title>Curriculo leandro</title>
+</head>
 
 <style>
     *{
@@ -31,33 +32,53 @@
     
     header div img {
         width: 30px;
-        
-
     }
     
     header div {
         display: inline-block;
-        
-        
     }
 
     
     header>div>img {
         width: 130px;
-        
-        
     }
-        
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    nav {
+        background-color: black;
+    }
+    
+    nav a {
+        display: inline-block;
+        padding: 10px 20px;
+        color: #eeeeee;
+        text-decoration: none;
+    }
+
+    nav a:hover {
+        background-color: #eeeeee;
+        color: black;
+    }
+
+    #logo img{
+        border-radius: 50%;
+
+    }
+
+
 </style>
 
 <body>
-    <header>
+    <header class="row">
 
-        <div>
+        <div id="logo">
             <img src="img/foto2.jpg" alt="foto">
         </div>
         
-        <div>
+        <div id="dados">
             <div>
                 <h1>LEANDRO THURLER</h1>
                 <p>Programador WEB</p>
@@ -73,18 +94,19 @@
     </header>
     
     <nav>
-        <p>projetos</p>
-        <p>Empresas</p>
-
+        <a href="index.html">Inicio</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#empresa">Empresas</a>
+        
     </nav>
 
-    <section>
+    <section id="projetos">
         <h1>Projetos</h1>
         <p>exemplo</p>
 
     </section>
 
-    <section>
+    <section id="empresas">
         <h1>Empresas</h1>
         <p>Senac RJ</p>
 
