@@ -16,13 +16,14 @@
         font-family: Arial, Helvetica, sans-serif;
         font-size: medium;
         padding: 30px;
+        border: #320db8;
     }
     header h2{
         color: #320db8;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
     }
     header div img {
-        width: 30%;
+        width: 20%;
        
         
     }
@@ -34,20 +35,35 @@
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     #logo {
-            width: 100%;
+            width: 60%;
             text-align: right;
+            padding-left: 60px;
+            margin-left: 225px;
+            
+            
             
     }
     #dados {
             width: 100%;
             text-decoration: none;
             display: inline-block;
-            margin: 50px;
+            padding: 25px 0px 0px 0px;
+            margin: none;
+            border: none;
+            
+           
     }
 
     #links {
         width: 20%;
-        padding: 0px 0px 0px 3pz;
+        display: inline-block;
+        margin: none;
+        text-decoration: none;
+        border: none;
+    }
+
+    #links img{
+        padding: 5px 6px;
     }
    
     body{
@@ -56,18 +72,21 @@
     nav{
         background-color: #320db8 ;
         text-align: center;
+        
     }
     nav a{
         display: inline-block;
-        padding: 10px 52px ;
+        padding: 3px 37px ;
         color: #eeeeee;
         text-decoration: none;
         text-align: center;
-        border-radius: 25%;
+        font-size: small;
+        
     }
     nav a:hover{
         background-color: #eeeeee;
-        color: black;
+        color: #320db8;
+        border-radius: 10px;
         
     }
     #logo img{
@@ -76,6 +95,7 @@
     #projetos{
         background-color: darkgrey;
         text-align: center;
+        color: #320db8;
     
     }
     #sobre{
@@ -93,18 +113,28 @@
     #tecnologias{
         text-align: center;
         background-color: darkgrey;
-        color: #000000;
+        color: #320db8;
     }
     footer{
         background-color: #320db8;
         color: #eeeeee;
-        text-align:right;
-        padding: 30px;
+        padding: 20px;
         font-size: .7rem;
+        text-align: center;
+        
     }
 
-    footer span{
-        text-align: end;
+    #ftspan {
+        text-align: right;
+        display: inline;
+        
+    }
+
+    #linksftr img {
+        width: 4%;
+        display: inline;
+        padding: 0px 7px
+        
     }
     
     #proj_img{
